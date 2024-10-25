@@ -25,3 +25,6 @@ Crea por defecto una carpeta dist con un archivo main.js minificado (sin espacio
 ```bash
     npm run dev
 ```
+
+5- Al poner el modo development el resultado es diferente
+Por defecto webpack tiene que le punto de entrada está en la carpeta src/index.js

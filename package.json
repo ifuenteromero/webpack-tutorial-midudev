@@ -4,7 +4,7 @@
 	"description": "tutorial de webpack de midudev",
 	"main": "index.js",
 	"scripts": {
-		"dev": "webpack"
+		"dev": "webpack --mode=development"
 	},
 	"keywords": [],
 	"author": "Irene Fuente",
