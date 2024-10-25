@@ -28,3 +28,7 @@ Crea por defecto una carpeta dist con un archivo main.js minificado (sin espacio
 
 5- Al poner el modo development el resultado es diferente
 Por defecto webpack tiene que le punto de entrada está en la carpeta src/index.js
+
+6- Si quieres cambiar el comportamiento por defecto se crea el archivo webpack.config.js
+
+Al cambiar el output y hacer npm run dev te crea la carpeta build, así que se borra la carpeta dist
