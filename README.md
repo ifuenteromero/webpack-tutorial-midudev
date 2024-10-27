@@ -34,3 +34,15 @@ Por defecto webpack tiene que le punto de entrada está en la carpeta src/index.
 Al cambiar el output y hacer npm run dev te crea la carpeta build, así que se borra la carpeta dist
 
 7- Para cambiar el nombre del bundle resultante se usa filename
+
+8- Install react and react-dom
+
+```bash
+    npm i react react-dom
+```
+
+Se necesita un loader (babel) porque no entiende JSX
+
+```bash
+    npm i -D @babel/core babel-loader @babel/preset-react
+```
