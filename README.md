@@ -46,3 +46,9 @@ Se necesita un loader (babel) porque no entiende JSX
 ```bash
     npm i -D @babel/core babel-loader @babel/preset-react
 ```
+
+```bash
+    npx servor build
+```
+
+en una utilidad para servir una carpeta que contenga un archivo index.html
