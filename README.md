@@ -52,3 +52,9 @@ Se necesita un loader (babel) porque no entiende JSX
 ```
 
 en una utilidad para servir una carpeta que contenga un archivo index.html
+
+-   Hasta ahora hemos creado un index.html manualmente. Para que webpack lo haga automáticamente:
+
+```bash
+    npm i -D html-webpack-plugin
+```
