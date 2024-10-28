@@ -12,7 +12,14 @@ module.exports = {
 				test: /\.js$/, // regex para buscar archivos .js
 				loader: 'babel-loader', // transpila JS moderno a JS antiguo
 				options: {
-					presets: ['@babel/preset-react'], // transpila JSX a JS
+					presets: [
+						[
+							'@babel/preset-react', // transpila JSX a JS
+							{
+								runtime: 'automatic',
+							},
+						],
+					],
 				},
 			},
 		],
