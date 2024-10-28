@@ -58,3 +58,11 @@ en una utilidad para servir una carpeta que contenga un archivo index.html
 ```bash
     npm i -D html-webpack-plugin
 ```
+
+-   Instalamos webpack-dev-server para que conforme vamos guardando se actualiza en el navegador
+
+```bash
+    npm i -D webpack-dev-server
+```
+
+-   Añadimos un script para servir la aplicación

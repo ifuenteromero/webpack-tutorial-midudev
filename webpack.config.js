@@ -40,4 +40,9 @@ module.exports = {
 	module: {
 		rules,
 	},
+	devServer: {
+		open: true, // abre el navegador automáticamente
+		port: 3000, // puerto
+		overlay: true, // muestra errores en pantalla
+	},
 };
