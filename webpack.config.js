@@ -1,5 +1,13 @@
 const path = require('path');
 
+const ruleForCss = {
+	test: /\.css$/i,
+	use: [
+		'style-loader', // inyecta el CSS en el HTML
+		'css-loader', // interpreta los @import y url() de los archivos CSS
+	],
+};
+
 const ruleForJS = {
 	test: /\.js$/, // regex para buscar archivos .js
 	loader: 'babel-loader', // transpila JS moderno a JS antiguo
@@ -15,7 +23,7 @@ const ruleForJS = {
 	},
 };
 
-const rules = [ruleForJS];
+const rules = [ruleForJS, ruleForCss];
 
 module.exports = {
 	// entry: './src/index.js', // por defecto ya lo hace
